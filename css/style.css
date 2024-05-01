@@ -231,6 +231,7 @@ hr {
   .navbar {
     flex-direction: column;
     padding: 1.5rem 1rem;
+    height: max-content;
     justify-content: center;
   }
 
@@ -247,6 +248,7 @@ hr {
     /* border: 1px solid; */
     flex-direction: column;
     height: 0;
+    padding: 0.25rem 0;
     overflow: hidden;
     transition: 200ms ease-in-out;
   }
