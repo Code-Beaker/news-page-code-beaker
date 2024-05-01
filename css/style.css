@@ -247,6 +247,10 @@ hr {
     /* border: 1px solid; */
     flex-direction: column;
     height: 0;
+<<<<<<< Updated upstream
+=======
+    padding: 0.25rem 0;
+>>>>>>> Stashed changes
     overflow: hidden;
     transition: 200ms ease-in-out;
   }
