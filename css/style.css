@@ -248,14 +248,15 @@ hr {
     /* display: none; */
     /* border: 1px solid; */
     flex-direction: column;
-    height: 0;
+    height: fit-content;
+    display: none;
     padding: 0.25rem 0;
     overflow: hidden;
     transition: 200ms ease-in-out;
   }
 
   .navbar__links-show {
-    height: fit-content;
+    display: flex;
   }
 
   .container-lg {
