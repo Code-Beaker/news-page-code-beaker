@@ -231,6 +231,8 @@ hr {
   .navbar {
     flex-direction: column;
     padding: 1.5rem 1rem;
+    overflow: hidden;
+    height: max-content;
     justify-content: center;
   }
 
@@ -247,16 +249,20 @@ hr {
     /* border: 1px solid; */
     flex-direction: column;
     height: 0;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     padding: 0.25rem 0;
 >>>>>>> Stashed changes
+=======
+    padding: 0.35rem 0;
+>>>>>>> 8351b1441426bcd4d748a62941b601d32868e35e
     overflow: hidden;
     transition: 200ms ease-in-out;
   }
 
   .navbar__links-show {
-    height: 15rem;
+    height: fit-content;
   }
 
   .container-lg {
