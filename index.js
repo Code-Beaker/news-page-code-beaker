@@ -14,7 +14,5 @@ navigationToggleButton.addEventListener("click", () => {
     // navigationToggleButton.classList.remove("navbar__toggle-button-active");
     listIcon.src = "./assets/images/icon-menu.svg";
     hidden = true;
-    listIcon.style.width = "2rem";
-    listIcon.style.height = "2rem";
   }
 });
