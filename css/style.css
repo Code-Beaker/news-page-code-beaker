@@ -228,7 +228,7 @@ hr {
 }
 
 /* responsive for mobile phones */
-@media (width < 50rem) {
+@media (width < 75rem) {
   .navbar {
     flex-direction: column;
     padding: 1.5rem 1rem;

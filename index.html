@@ -99,13 +99,20 @@
       <section class="container-lg">
         <div class="container__cols">
           <section class="container__main-content">
-            <figure class="container__main-image">
+            <!-- <figure class="container__main-image">
               <img
                 class="container__main-img"
                 src="assets/images/image-web-3-desktop.jpg"
                 alt="future of web3"
               />
-            </figure>
+            </figure> -->
+            <picture class="container__main-img">
+              <source
+                media="(min-width: 50rem)"
+                srcset="assets/images/image-web-3-desktop.jpg"
+              />
+              <img src="assets/images/image-web-3-mobile.jpg" />
+            </picture>
             <div class="container__main-text-content">
               <h1 class="heading__main-lg">The Bright Future of Web 3.0?</h1>
               <section class="content__main-text-content">
