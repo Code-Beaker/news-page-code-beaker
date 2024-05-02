@@ -1,11 +1,18 @@
 const navigationToggleButton = document.getElementById("navToggleBtn");
 const navigationLinks = document.querySelector(".navbar__links");
-const navigationToggleIcon = document.getElementById("togglerImage");
+let listIcon = document.getElementById("togglerImage");
+let hidden = true;
 
 navigationToggleButton.addEventListener("click", () => {
-  const buttonStyles = navigationToggleButton.classList;
-  buttonStyles.toggle("navbar__toggle-button-active");
-  const navLinksStyles = navigationLinks.classList;
-  navLinksStyles.toggle("navbar__links-show");
-  navigationToggleIcon.src = "./assets/images/icon-menu-close.svg";
+  if (hidden) {
+    navigationLinks.classList.add("navbar__links-show");
+    listIcon.src = "./assets/images/icon-menu-close.svg";
+    hidden = false;
+    // navigationToggleButton.classList.add("navbar__toggle-button-active");
+  } else {
+    navigationLinks.classList.remove("navbar__links-show");
+    // navigationToggleButton.classList.remove("navbar__toggle-button-active");
+    listIcon.src = "./assets/images/icon-menu.svg";
+    hidden = true;
+  }
 });

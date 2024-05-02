@@ -212,7 +212,7 @@ hr {
   cursor: pointer;
   border-radius: 0.25rem;
   padding: 0.25rem;
-  rotate: 45deg;
+  /* rotate: 45deg; */
   scale: 0.75;
   transition: 150ms cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -220,6 +220,7 @@ hr {
 .navbar__toggle-button-active {
   outline: 3px solid var(--dark-grayish-blue);
   rotate: 90deg;
+  opacity: 0;
 }
 
 .navbar__toggle-img {
