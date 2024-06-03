@@ -348,9 +348,34 @@ hr {
 @media screen and (width < 50rem) {
   .sidebar {
     width: 0;
+    overflow: hidden;
+    z-index: 9999;
   }
 
   .sidebar-show {
-    width: 75%;
+    width: 100%;
   }
+}
+
+.skip-link {
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  color: black;
+  text-decoration: underline 2px;
+  font-weight: var(--weight-bold);
+  display: block;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: var(--soft-orange);
+  scale: 1 0;
+  transition: 0.25s ease;
+}
+
+.skip-link:hover {
+  text-decoration: none;
+}
+
+.skip-link:focus-visible {
+  scale: 1;
 }
