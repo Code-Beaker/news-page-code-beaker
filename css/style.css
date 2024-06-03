@@ -231,7 +231,7 @@ hr {
 @media (width < 75rem) {
   .navbar {
     flex-direction: column;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem;
     overflow: hidden;
     height: max-content;
     justify-content: center;
@@ -297,8 +297,8 @@ hr {
 .sidebar {
   position: fixed;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(0.25rem);
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(0.5rem);
   top: 0;
   right: 0;
   height: 100vh;
@@ -306,6 +306,7 @@ hr {
   overflow: hidden;
   z-index: 999;
   padding-block: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.75rem rgba(0, 0, 0, 0.5);
   transition: 250ms ease;
 }
 
